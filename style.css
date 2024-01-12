@@ -2,33 +2,41 @@
 #education,
 #project,
 #contact,
+#sertificate,
+#exp,
 .social,
-.jumbotron,
+#jumbotron,
 .navbar {
   font-family: josefinreg;
 }
+.navbar {
+  background-color: #222831;
+}
 footer {
   font-family: josefinreg;
+  background-color: #222831;
 }
-.jumbotron {
+#jumbotron {
   padding-top: 9rem;
-  background-color: #faf6f0;
-  height: 720px;
+  background-color: #393e46;
+  height: 750px;
   font-family: josefinreg;
+  animation: 2s;
 }
 
 #project {
-  background-color: #faf6f0;
+  background-color: #eeeeee;
 }
 
 section {
   padding-top: 4rem;
 }
 #about {
-  height: 300px;
+  height: 500px;
+  background-color: #eeeeee;
 }
 .social {
-  background-color: #f4dfc8;
+  background-color: #393e46;
 }
 
 .social .container i {
@@ -39,12 +47,12 @@ section {
 }
 
 .bold-line {
-  border-top: 2px solid black;
+  border-top: 2px solid #ffff;
   opacity: 0.3;
 }
 .education {
   padding: 5rem;
-  background-color: #faf6f0;
+  background-color: #eeeeee;
 }
 .content {
   margin-top: 60px;
@@ -56,7 +64,27 @@ section {
 .about {
   font-size: 50px;
 }
+#sertificate {
+  padding: 25px;
+}
+#exp {
+  background-color: #faf3f0;
+}
+.jumbotron img {
+  transform: scale(1);
+}
 
+.jumbotron img:hover {
+  animation: zoomFade 1s forwards;
+}
+
+#sertificate img {
+  transform: scale(1);
+}
+#sertificate img:hover {
+  animation: zoomFadeSertif 1s forwards;
+}
+/*Fonts*/
 @font-face {
   font-family: Bebasneue;
   src: url(fonts/bebasneue-regular-webfont.woff);
@@ -64,4 +92,26 @@ section {
 @font-face {
   font-family: josefinreg;
   src: url(fonts/josefinsans-regular-webfont.woff);
+}
+
+/*Transition*/
+@keyframes zoomFade {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+}
+@keyframes zoomFadeSertif {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.3);
+    opacity: 1;
+  }
 }

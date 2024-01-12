@@ -14,7 +14,7 @@
   </head>
   <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top" style="background-color: rgb(0, 0, 0)">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">Ferdinant Pangestu</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,22 +23,25 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#jumbotron">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
+              <a class="nav-link" href="#sertificate">Sertificate</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#project">Projects</a>
+              <a class="nav-link" href="#exp">Experience</a>
             </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#project">Projects</a>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
             <a href="CV/Ferdinant Pangetu - CV + Transkrip Ijazah.pdf" download="Ferdinant Pangetu - CV + Transkrip Ijazah.pdf" target="_blank mr-4">
-              <button type="button" class="btn btn-outline-secondary" style="border-width: 3px;">My Resume</button>
+              <button type="button" class="btn btn-outline-light" style="border-width: 3px;">My Resume</button>
             </a>
           </ul>
         </div>
@@ -47,18 +50,21 @@
     <!--Akhir Navbar-->
 
     <!--Jumbotron-->
-    <section class="jumbotron text-center">
-      <img src="img/edit.jpg" alt="Ferdinant" width="200px" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4 mt-4">Ferdinant Pangestu</h1>
-      <p class="lead">Fresh Graduate | Front-End Developer</p>
-      <p class="mt-5">Welcome to my personal page! I'm passionate about Web Developer. Connect with me to stay updated on my latest projects and activities.</p>
-      <a href="#about" class="btn btn-outline-dark btn-lg mt-5 fs-3" tabindex="-1" role="button">Discover Now <i class="bi bi-arrow-right"></i></a>      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <section id="jumbotron">
+      <div class="container text-center">
+        <img src="img/edit.jpg" alt="Ferdinant" width="200px" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4 mt-4 text-light">Ferdinant Pangestu</h1>
+      <p class="lead text-light">Fresh Graduate | Front-End Developer</p>
+      <p class="mt-5 text-light">Welcome to my personal page! I'm passionate about Web Developer. Connect with me to stay updated on my latest projects and activities.</p>
+      <a href="#about" class="btn text-light btn-outline-light btn-lg mt-5 fs-3" tabindex="-1" role="button">Discover Now <i class="bi bi-arrow-right"></i></a>      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#fff"
           fill-opacity="1"
           d="M0,64L48,58.7C96,53,192,43,288,80C384,117,480,203,576,202.7C672,203,768,117,864,101.3C960,85,1056,139,1152,144C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
       </svg> -->
+      </div>
+      
     </section>
     <!--Akhir Jumbotron-->
 
@@ -70,13 +76,18 @@
           </div>
         </div>
         <div class="row justify-content-around fs-5 text-center">
-          <div class="col-md-4"> 
-          <h2 class="about mt-5">About Me</h2>        
+          <div class="col-md-4" > 
+          <h2 class="about mt-5"">About Me</h2>        
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 univ">
             <div style="display: flex; flex-direction: column; align-items: flex-start;">
-              <p><i class="bi bi-envelope-fill"></i><b> Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b> <a href="mailto:ferdinant1912@gmail.com">ferdinant1912@gmail.com</a></p>
-              <p><i class="bi bi-geo-alt-fill"></i><b> Address&nbsp;&nbsp;&nbsp;</b> Banjarmasin, Indonesia</p>
+              <p><i class="bi bi-envelope-fill"></i><b> &nbsp;Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b> <a href="mailto:ferdinant1912@gmail.com">ferdinant1912@gmail.com</a></p>
+              <p><i class="bi bi-geo-alt-fill text-danger"></i><b> &nbsp;Address&nbsp;&nbsp;&nbsp;</b> Banjarmasin, Indonesia</p>
+              <p><img src="icons/graduation-hat.png" alt="University" width="30" height="auto"><b> Education&nbsp;&nbsp;&nbsp;</b></p>
+              <p style="margin-left: 40px;"><b>2018</b></p>
+              <p style="margin-left: 40px;"><b>Business Information System</b></p>
+              <p style="margin-left: 40px;">GPA: 3.23/4.00</p>
+              <p style="margin-left: 40px;"> Petra Christian University</p>
             </div>
           </div>
         </div>
@@ -89,14 +100,14 @@
       <div class="container">
         <div class="row">
         </div>
-        <div class="row justify-content-around fs-5 text-center pb-5">
+        <div class="row justify-content-around fs-5 text-center pb-5 text-light">
           <div class="col-md-4"> 
-            <a href="https://linkedin.com/in/ferdinant-pangestu" target="_blank"><i class="bi bi-linkedin"></i></a>
-            <a href="https://github.com/Hxnlchs" target="_blank"><i class="bi bi-github"></i></a>     
-            <a href="https://instagram.com/ferdinantp_" target="_blank"><i class="bi bi-instagram"></i></a>
-            <a href="https://web.facebook.com/ferdinant.pangestu" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://linkedin.com/in/ferdinant-pangestu" target="_blank"><i class="bi bi-linkedin text-light"></i></a>
+            <a href="https://github.com/Hxnlchs" target="_blank"><i class="bi bi-github text-light"></i></a>     
+            <a href="https://instagram.com/ferdinantp_" target="_blank"><i class="bi bi-instagram text-light"></i></a>
+            <a href="https://web.facebook.com/ferdinant.pangestu" target="_blank"><i class="bi bi-facebook text-light"></i></a>
           </div>
-          <div class="col text-center mb-3 mt-5 bold-line">
+          <div class="col text-center mb-3 mt-5 bold-line ">
             <!-- Horizontal line -->
           </div>
           <div class="col-md-4">
@@ -109,8 +120,8 @@
     </section>
     <!--Akhir Social-->
 
-    <!--Education-->
-    <section id="education">
+    <!-- Education-->
+    <!-- <section id="education">
       <div class="container">
         <h2 class=" fw-bold"><u>Education</u></h2>
         <div class="content pb-5">
@@ -120,12 +131,41 @@
           <p class="fs-4"> Petra Christian University</p>
         </div>
       </div>
+    </section> -->
+    <!--Akhir Education -->
+
+    <!--Sertification-->
+    <section id="sertificate">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center mb-3 mt-5">
+            <h2 class=" fw-bold fs-1"><b>Sertificate</b></h2>
+          </div>
+        </div>
+        <div class="row justify-content-around mt-5" >
+          <div class="col-5">
+            <div class="card">
+              <img src="sertification/image (1).png" class="card-img-top" alt="Microsoft Azure Fundamentals">
+              <div class="card-body">
+                <h5 class="card-title text-center"><b>Microsoft Azure Fundamentals</b></h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="card">
+              <img src="sertification/image (2).png" class="card-img-top" alt="Microsoft Azure Data Fundamentals">
+              <div class="card-body">
+                <h5 class="card-title text-center"><b>Microsoft Azure Data Fundamentals</b></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
     </section>
-    <!--Akhir Education-->
-
-
+    <!--Akhir Sertification-->
+    
     <!--Projects-->
-    <section id="project">
+    <!-- <section id="project">
       <div class="container">
         <div class="row">
           <div class="col text-center mb-3 mt-5">
@@ -192,15 +232,57 @@
           d="M0,192L34.3,213.3C68.6,235,137,277,206,277.3C274.3,277,343,235,411,213.3C480,192,549,192,617,197.3C685.7,203,754,213,823,229.3C891.4,245,960,267,1029,250.7C1097.1,235,1166,181,1234,176C1302.9,171,1371,213,1406,234.7L1440,256L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
         ></path>
       </svg>
-    </section>
+    </section> -->
     <!-- Akhir Projects-->
+
+    <!--Experienced-->
+    <section id="exp">
+      <div class="container">
+        <h2 class="fs-1"><b>Experience</b></h2>
+        
+        <div class="row justify-content-around mt-5">
+          <div class="col-5">
+            <h3 class="fs-2"><b>Project Management Website</b></h3>
+            <h4 class="fs-3"><b>February 2023 - June 2023</b></h4>
+            <ul>
+              <li>
+                <p>Creating a project management website using phpMyAdmin that enables companies to plan project execution, including
+                  recording raw materials, assigning project responsibilities, project task lists, daily progress recording, and scheduling project
+                  installations at the client's location. </p>
+              </li>
+              <li>
+                <p>Tools: PHP, JavaScript, HTML, CSS, phpMyAdmin</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-5">
+            <h3 class="fs-2"><b>Enterprise Resource Planning Internship</b></h3>
+            <h4 class="fs-3"><b>July 2022 - December 2022</b></h4>
+            <ul>
+              <li>
+                <p>Developed and improved time management and organizational skills to maximise personal productivity. </p>
+              </li>
+              <li>
+                <p>Established positive relationships with customers and other staff members. </p>
+              </li>
+              <li>
+                <p>Running an ERP system to prevent company data from scattering and enable monitoring of all business processes through
+                  a centralized system. </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Akhir Experienced-->
+
 
     <!--Contact-->
     <section id="contact">
       <div class="container">
         <div class="row">
           <div class="col text-center mb-3">
-            <h2 class=" fw-bold">Contact Me</h2>
+            <h2 class=" fw-bold fs-1"><b>Contact Me</b></h2>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -250,6 +332,8 @@
     </footer>
     <!--Akhir Footer-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="path/to/jquery.min.js"></script>
+    <script src="path/to/bootstrap.bundle.min.js"></script>
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbyAbYd1YjTHN4OXdcvrEAna7Q1qjcz85nUBy0cvzwGPfKR-_poUnjPGNvc9-oKCKxKB/exec'
       const form = document.forms['contact-form']
@@ -276,5 +360,34 @@
           .catch(error => console.error('Error!', error.message))
       })
     </script>
+ <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var sections = document.querySelectorAll("section"); // Ganti "section" dengan tag elemen sejenis yang menunjukkan setiap bagian halaman
+    var navLinks = document.querySelectorAll(".navbar-nav a");
+
+    window.addEventListener("scroll", function () {
+      var currentSection = "";
+
+      sections.forEach(function (section) {
+        var sectionTop = section.offsetTop;
+        var sectionHeight = section.clientHeight;
+
+        if (pageYOffset >= sectionTop - sectionHeight / 3) {
+          currentSection = section.getAttribute("id");
+        }
+      });
+
+      navLinks.forEach(function (navLink) {
+        navLink.classList.remove("active");
+
+        if (navLink.getAttribute("href").slice(1) === currentSection) {
+          navLink.classList.add("active");
+        }
+      });
+    });
+  });
+</script>
+
+
   </body>
 </html>
