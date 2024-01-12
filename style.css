@@ -18,7 +18,7 @@ footer {
 }
 #jumbotron {
   padding-top: 9rem;
-  background-color: #393e46;
+  background-color: #8785a2;
   height: 750px;
   font-family: josefinreg;
   animation: 2s;
@@ -33,10 +33,10 @@ section {
 }
 #about {
   height: 500px;
-  background-color: #eeeeee;
+  background-color: #f2f2f2;
 }
 .social {
-  background-color: #393e46;
+  background-color: #f6f6f6;
 }
 
 .social .container i {
@@ -47,7 +47,7 @@ section {
 }
 
 .bold-line {
-  border-top: 2px solid #ffff;
+  border-top: 2px solid #000000dd;
   opacity: 0.3;
 }
 .education {
@@ -62,13 +62,17 @@ section {
   font-size: 50px;
 }
 .about {
-  font-size: 50px;
+  font-size: 40px;
 }
 #sertificate {
   padding: 25px;
+  background-color: #ffe2e2;
 }
 #exp {
   background-color: #faf3f0;
+}
+#contact {
+  background-color: #f6f6f6;
 }
 .jumbotron img {
   transform: scale(1);
@@ -83,6 +87,11 @@ section {
 }
 #sertificate img:hover {
   animation: zoomFadeSertif 1s forwards;
+}
+.underline-spacing h2 {
+  text-decoration: underline;
+  padding-bottom: 10px; /* Sesuaikan dengan jarak yang diinginkan */
+  display: inline-block; /* Untuk memastikan padding hanya mempengaruhi bagian bawah teks */
 }
 /*Fonts*/
 @font-face {
